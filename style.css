@@ -1,0 +1,97 @@
+body {
+    background-image: url(images/makima.webp);
+    background-position: center;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.phrase {
+    color: white;
+    text-shadow: 3px 3.6px 2px rgb(26, 25, 25);
+}
+
+h1 { 
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3.6px 2px rgb(26, 25, 25);
+}
+
+h2 {
+    text-shadow: 3px 3.6px 2px rgb(56, 54, 54);
+}
+
+div a {
+    text-align: center;
+}
+
+.signup{
+    background-color: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(15px);
+    text-align: center;
+    height: 370px;
+    border-radius: 10%;
+    opacity: 0.9;
+    color: #ffffff;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+input {
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 15px;
+    border: none;
+    font-weight:  bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+.account {
+    color: #ff6600;
+    margin-top: 5px;
+}
+
+a:link{
+    color: #ff6600;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #1c1c1c;
+    text-decoration: underline;
+}
+
+button {
+    color: #ff6600;
+    background-color: #d3cece;
+    border: 2px solid #1c1c1c;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #1c1c1c;
+    border: 2px solid #f5f5f5;
+    box-shadow: 2px 5px 5px #ff6600;
+}
+
+button:active {
+    border: 2px solid #1c1c1c;
+    background-color: #f5f5f5;
+    box-shadow: none;
+}
